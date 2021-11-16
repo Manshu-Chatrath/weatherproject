@@ -1,0 +1,29 @@
+.navbuttons {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    background: #33587A;
+}
+.navbtn {
+    width: 50%;
+    text-align: center;
+   align-self: center;
+   color: white;
+   font-weight: bold;
+   height: 50px;
+   line-height: 50px;
+}
+.navbtn:hover {
+    border-bottom: 4px solid yellow;
+}
+.navbtn:active,.active
+{  border-bottom: 4px solid yellow;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.link {
+    display: none;
+}
