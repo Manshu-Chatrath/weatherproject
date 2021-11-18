@@ -48,6 +48,11 @@ const currentWindDirection=(wind_deg)=>{
         { 
             return 'NW'
         }
+     else
+        {
+            return 'N'
+        }
+    
     
 }
 const windGust=()=>{
